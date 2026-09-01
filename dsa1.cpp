@@ -1,4 +1,11 @@
+//BRIEF :- THIS CODE IS FOR THE TIME AND SPACE COMPLEXITY NOTIHNG TOO EXTRAAVAGANT array traversal with state tracking
+
+
+
 #include <iostream>
+
+
+
 using namespace std ;
 int main(){
     const int maxsize = 100 ;
@@ -16,7 +23,7 @@ int main(){
      for (int i = 0 ; i <size ;i++){
         cin >> numbers[i];
      }
-     int largest = numbers[0];
+     int largest = numbers[0]; 
      int smallest = numbers[0];
 
      for (int i = 1; i < size; i++) {
