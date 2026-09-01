@@ -53,4 +53,4 @@ int main() {
     return 0;
 }
 //in brief we simply compared the 2 initial indexes and figured the lrgest and second largest in them
-//then we sorted them according to the size
+//then we found wich is bigger according to the size
